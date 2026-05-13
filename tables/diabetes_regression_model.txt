@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = diabetes ~ obesity + smoking + uninsured + rpl_themes, 
+    data = tx_health_panel)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.5650 -0.5238  0.0010  0.4370  3.8019 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2.16405    0.97716  -2.215   0.0277 *  
+obesity      0.22519    0.03848   5.852 1.53e-08 ***
+smoking      0.27148    0.03741   7.257 5.08e-12 ***
+uninsured    0.16866    0.01247  13.521  < 2e-16 ***
+rpl_themes  -0.33073    0.31842  -1.039   0.3000    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8885 on 248 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.8427,	Adjusted R-squared:  0.8402 
+F-statistic: 332.3 on 4 and 248 DF,  p-value: < 2.2e-16
+

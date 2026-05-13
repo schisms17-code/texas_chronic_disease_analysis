@@ -1,0 +1,242 @@
+﻿,,
+County Health Rankings is a program of the University of Wisconsin Population Health Institute.,,
+,,
+"This Excel file contains the measure data, details, and Population Health and Well-being and Community Conditions summaries for each county in Texas for the 2025 Annual Data Release.",,
+,,
+"To learn more about our methods, please visit www.countyhealthrankings.org",,
+,,
+"1) Select Measure Data (including measure values, confidence intervals* and Z-scores**) - These measures contribute to the Population Health and Well-being and Community Conditions summaries. Measures appear in bold font. ",,
+2) Select Measure Sources & Years,,
+3) Additional Measure Data (including measure values and confidence intervals*) - These supplemental measures do not contribute to the Population Health and Well-being and Community Conditions summaries and are included in the Health Snapshots to provide a broader picture of health and wellbeing.,,
+4) Addtl Measure Sources & Years,,
+5) Health Groups - Population Health and Well-being and Community Conditions summaries assigned to one of ten groups nationally using a data-informed grouping method.,,
+,,
+*   95% confidence intervals are provided where applicable and available.,,
+"**  Z-scores are ""adjusted"" Z-scores (e.g., multiplied by -1 if a positively framed measure, set to the state average for missing and unreliable values, and truncated at -3 or +3 if county population is less than 20,000).",,
+,,
+Measure,Data Elements,Description
+Geographic identifiers,FIPS,Federal Information Processing Standard
+,State,
+,County,
+Premature Death,Unreliable,Value reported but considered unreliable since based on counts of twenty or less.
+,Deaths,Number of deaths <75
+,Years of Potential Life Lost Rate,"Age-adjusted YPLL rate per 100,000"
+,95% CI - Low,95% confidence interval reported by National Center for Health Statistics
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,YPLL Rate (Hispanic (all races)),"Age-adjusted YPLL rate per 100,000 for Hispanic"
+,YPLL Rate (Hispanic (all races)) 95% CI - Low,95% confidence interval
+,YPLL Rate (Hispanic (all races)) 95% CI - High,
+,YPLL Rate (Hispanic (all races)) Unreliable,
+,YPLL Rate (Non-Hispanic AIAN),"Age-adjusted YPLL rate per 100,000 for non-Hispanic American Indian/Alaska Native"
+,YPLL Rate (Non-Hispanic AIAN) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic AIAN) 95% CI - High,
+,YPLL Rate (Non-Hispanic AIAN) Unreliable,
+,YPLL Rate (Non-Hispanic Asian),"Age-adjusted YPLL rate per 100,000 for non-Hispanic Asian"
+,YPLL Rate (Non-Hispanic Asian) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic Asian) 95% CI - High,
+,YPLL Rate (Non-Hispanic Asian) Unreliable,
+,YPLL Rate (Non-Hispanic Black),"Age-adjusted YPLL rate per 100,000 for non-Hispanic Black"
+,YPLL Rate (Non-Hispanic Black) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic Black) 95% CI - High,
+,YPLL Rate (Non-Hispanic Black) Unreliable,
+,YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander),"Age-adjusted YPLL rate per 100,000 for non-Hispanic Native Hawaiian and Other Pacific Islander"
+,YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High,
+,YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) Unreliable,
+,YPLL Rate (Non-Hispanic 2+ races),"Age-adjusted YPLL rate per 100,000 for non-Hispanic two or more races"
+,YPLL Rate (Non-Hispanic 2+ races) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic 2+ races) 95% CI - High,
+,YPLL Rate (Non-Hispanic 2+ races) Unreliable,
+,YPLL Rate (Non-Hispanic White),"Age-adjusted YPLL rate per 100,000 for non-Hispanic White"
+,YPLL Rate (Non-Hispanic White) 95% CI - Low,95% confidence interval
+,YPLL Rate (Non-Hispanic White) 95% CI - High,
+,YPLL Rate (Non-Hispanic White) Unreliable,
+Poor Physical Health Days,Average Number of Physically Unhealthy Days,Average number of reported physically unhealthy days per month
+,95% CI - Low,95% confidence interval reported by BRFSS
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Low Birth Weight,Unreliable,Value reported but considered unreliable since based on counts of twenty or less.
+,% Low Birth Weight,Percentage of births with low birth weight (<2500g)
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,% LBW (Hispanic (all races)),Percentage of births with low birth weight (<2500g) for Hispanics
+,% LBW (Hispanic (all races)) 95% CI - Low,95% confidence interval
+,% LBW (Hispanic (all races)) 95% CI - High,
+,% LBW (Non-Hispanic AIAN),Percentage of births with low birth weight (<2500g) for non-Hispanic American Indian and Alaska Natives
+,% LBW (Non-Hispanic AIAN) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic AIAN) 95% CI - High,
+,% LBW (Non-Hispanic Asian),Percentage of births with low birth weight (<2500g) for non-Hispanic Asians
+,% LBW (Non-Hispanic Asian) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic Asian) 95% CI - High,
+,% LBW (Non-Hispanic Black),Percentage of births with low birth weight (<2500g) for non-Hispanic Blacks
+,% LBW (Non-Hispanic Black) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic Black) 95% CI - High,
+,% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander),Percentage of births with low birth weight (<2500g) for non-Hispanic Native Hawaiian and Other Pacific Islander
+,% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High,
+,% LBW (Non-Hispanic 2+ races),Percentage of births with low birth weight (<2500g) for non-Hispanic two or more races
+,% LBW (Non-Hispanic 2+ races) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic 2+ races) 95% CI - High,
+,% LBW (Non-Hispanic White),Percentage of births with low birth weight (<2500g) for non-Hispanic whites
+,% LBW (Non-Hispanic White) 95% CI - Low,95% confidence interval
+,% LBW (Non-Hispanic White) 95% CI - High,
+Poor Mental Health Days,Average Number of Mentally Unhealthy Days,Average number of reported mentally unhealthy days per month
+,95% CI - Low,95% confidence interval reported by BRFSS
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Poor or Fair Health,% Fair or Poor Health,Percentage of adults that report fair or poor health
+,95% CI - Low,95% confidence interval reported by BRFSS
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Flu Vaccinations,% Vaccinated,Percentage of annual Medicare enrollees having an annual flu vaccination
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,% Vaccinated (AIAN),Percentage of annual Medicare enrollees having an annual flu vaccination for American Indian/Alaska Natives
+,% Vaccinated (Asian),Percentage of annual Medicare enrollees having an annual flu vaccination for Asian/Pacific Islanders
+,% Vaccinated (Black),Percentage of annual Medicare enrollees having an annual flu vaccination for Blacks
+,% Vaccinated (Hispanic),Percentage of annual Medicare enrollees having an annual flu vaccination for Hispanics
+,% Vaccinated (White),Percentage of annual Medicare enrollees having an annual flu vaccination for non-Hispanic whites
+Access to Exercise Opportunities,% With Access to Exercise Opportunities,Percentage of the population with access to places for physical activity
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Food Environment Index,Food Environment Index,"Indicator of access to healthy foods - 0 is worst, 10 is best"
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Primary Care Physicians,# Primary Care Physicians,Number of primary care physicians (PCP) in patient care
+,Primary Care Physicians Rate,"Primary Care Physicians per 100,000 population"
+,Primary Care Physicians Ratio,Population to Primary Care Physicians ratio
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Mental Health Providers,# Mental Health Providers,Number of mental health providers (MHP)
+,Mental Health Provider Rate,"Mental Health Providers per 100,000 population"
+,Mental Health Provider Ratio,Population to Mental Health Providers ratio
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Dentists,# Dentists,Number of dentists
+,Dentist Rate,"dentists per 100,000 population"
+,Dentist Ratio,Population to dentists ratio
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Preventable Hospital Stays,Preventable Hospitalization Rate,"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees"
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,Preventable Hosp. Rate (AIAN),"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees for American Indian/Alaska Natives"
+,Preventable Hosp. Rate (Asian),"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees for Asian/Pacific Islanders"
+,Preventable Hosp. Rate (Black),"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees for Blacks"
+,Preventable Hosp. Rate (Hispanic),"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees for Hispanics"
+,Preventable Hosp. Rate (White),"Discharges for Ambulatory Care Sensitive Conditions per 100,000 Medicare Enrollees for non-Hispanic whites"
+Mammography Screening,% with Annual Mammogram,Percentage of female Medicare enrollees having an annual mammogram (age 65-74)
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,% Screened (AIAN),Percentage of American Indian/Alaska Native female Medicare enrollees having an annual mammogram (age 65-74)
+,% Screened (Asian),Percentage of Asian/Pacific Islander female Medicare enrollees having an annual mammogram (age 65-74)
+,% Screened (Black),Percentage of Black female Medicare enrollees having an annual mammogram (age 65-74)
+,% Screened (Hispanic),Percentage of Hispanic female Medicare enrollees having an annual mammogram (age 65-74)
+,% Screened (White),Percentage of non-Hispanic White female Medicare enrollees having an annual mammogram (age 65-74)
+Uninsured,# Uninsured,Number of people under age 65 without insurance
+,% Uninsured,Percentage of people under age 65 without insurance
+,95% CI - Low,95% confidence interval reported by SAHIE
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Severe Housing Problems,% Severe Housing Problems,"Percentage of households with at least 1 of 4 housing problems: overcrowding, high housing costs, or lack of kitchen or plumbing facilities"
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,Severe Housing Cost Burden,Percentage of households with high housing costs
+,Severe Housing Cost Burden 95% CI - Low,95% confidence interval
+,Severe Housing Cost Burden 95% CI - High,
+,Overcrowding,Percentage of households with overcrowding
+,Overcrowding 95% CI - Low,95% confidence interval
+,Overcrowding 95% CI - High,
+,Inadequate Facilities,Percentage of households with lack of kitchen or plumbing facilities
+,Inadequate Facilities 95% CI - Low,95% confidence interval
+,Inadequate Facilities 95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Driving Alone to Work,% Drive Alone to Work,Percentage of workers who drive alone to work
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,% Drive Alone (AIAN),Percentage of American Indian and Alaska Native workers who drive alone to work
+,% Drive Alone (AIAN) 95% CI - Low,95% confidence interval
+,% Drive Alone (AIAN) 95% CI - High,
+,% Drive Alone (Asian),Percentage of Asian/Pacific Islander workers who drive alone to work
+,% Drive Alone (Asian) 95% CI - Low,95% confidence interval
+,% Drive Alone (Asian) 95% CI - High,
+,% Drive Alone (Black),Percentage of Black workers who drive alone to work
+,% Drive Alone (Black) 95% CI - Low,95% confidence interval
+,% Drive Alone (Black) 95% CI - High,
+,% Drive Alone (Hispanic),Percentage of Hispanic workers who drive alone to work
+,% Drive Alone (Hispanic) 95% CI - Low,95% confidence interval
+,% Drive Alone (Hispanic) 95% CI - High,
+,% Drive Alone (White),Percentage of non-Hispanic White workers who drive alone to work
+,% Drive Alone (White) 95% CI - Low,95% confidence interval
+,% Drive Alone (White) 95% CI - High,
+Long Commute - Driving Alone,# Workers who Drive Alone,"Number of workers who commute in their car, truck or van alone"
+,% Long Commute - Drives Alone,"Among workers who commute in their car alone, the percentage that commute more than 30 minutes"
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Air Pollution: Particulate Matter,Average Daily PM2.5,Average daily amount of fine particulate matter in micrograms per cubic meter
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Drinking Water Violations,Presence of Water Violation,"County affected by a water violation: 1-Yes, 0-No"
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Broadband Access,% Households with Broadband Access,Percentage of households with broadband internet connection
+,# Households with Broadband Access,Number of households with broadband internet connection subscription
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Library Access,Visits per service area population,Library visits per service area population
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Some College,# Some College,Adults age 25-44 with some post-secondary education
+,Population,Adults age 25-44
+,% Some College,Percentage of adults age 25-44 with some post-secondary education
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+High School Completion,# Completed High School,Adults age 25 and over with a high school diploma or equivalent
+,Population,Adults age 25 and over
+,% Completed High School,Percentage of adults age 25 and over with a high school diploma or equivalent
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Unemployment,# Unemployed,Number of people ages 16+ unemployed and looking for work
+,Labor Force,Size of the labor force
+,% Unemployed,Percentage of population ages 16+ unemployed and looking for work
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Income Inequality,80th Percentile Income,80th percentile of median household income
+,20th Percentile Income,20th percentile of median household income
+,Income Ratio,Ratio of household income at the 80th percentile to income at the 20th percentile
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Children in Poverty,% Children in Poverty,Percentage of children (under age 18) living in poverty
+,95% CI - Low,95% confidence interval reported by SAIPE
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,% Children in Poverty (AIAN),"Percentage of American Indian and Alaska Native children (under age 18) living in poverty, ACS 5-year estimates"
+,% Children in Poverty (Asian),"Percentage of Asian/Pacific Islander children (under age 18) living in poverty, ACS 5-year estimates"
+,% Children in Poverty (Black),"Percentage of Black children (under age 18) living in poverty, ACS 5-year estimates"
+,% Children in Poverty (Hispanic),"Percentage of Hispanic children (under age 18) living in poverty, ACS 5-year estimates"
+,% Children in Poverty (White),"Percentage of non-Hispanic White children (under age 18) living in poverty, ACS 5-year estimates"
+Injury Deaths,# Injury Deaths,Number of injury deaths
+,Injury Death Rate,"Injury mortality rate per 100,000"
+,95% CI - Low,95% confidence interval
+,95% CI - High,
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+,Injury Death Rate (Hispanic (all races)),"Injury mortality rate per 100,000 for Hispanic"
+,Injury Death Rate (Hispanic (all races)) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Hispanic (all races)) 95% CI - High,
+,Injury Death Rate (Non-Hispanic AIAN),"Injury mortality rate per 100,000 for non-Hispanic American Indian and Alaska Native"
+,Injury Death Rate (Non-Hispanic AIAN) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic AIAN) 95% CI - High,
+,Injury Death Rate (Non-Hispanic Asian),"Injury mortality rate per 100,000 for non-Hispanic Asian"
+,Injury Death Rate (Non-Hispanic Asian) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic Asian) 95% CI - High,
+,Injury Death Rate (Non-Hispanic Black),"Injury mortality rate per 100,000 for non-Hispanic Black"
+,Injury Death Rate (Non-Hispanic Black) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic Black) 95% CI - High,
+,Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander),"Injury mortality rate per 100,000 for non-Hispanic Native Hawaiian and Other Pacific Islander"
+,Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High,
+,Injury Death Rate (Non-Hispanic 2+ races),"Injury mortality rate per 100,000 for non-Hispanic two or more races"
+,Injury Death Rate (Non-Hispanic 2+ races) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic 2+ races) 95% CI - High,
+,Injury Death Rate (Non-Hispanic White),"Injury mortality rate per 100,000 for non-Hispanic White"
+,Injury Death Rate (Non-Hispanic White) 95% CI - Low,95% confidence interval
+,Injury Death Rate (Non-Hispanic White) 95% CI - High,
+Social Associations,# Associations,Number of associations
+,Social Association Rate,"Associations per 10,000 population"
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)
+Child Care Cost Burden,% Household Income Required for Child Care Expenses,Percentage of median household income required for child care expenses for two children
+,National Z-Score,(Measure - Average of U.S. counties)/(Standard Deviation)

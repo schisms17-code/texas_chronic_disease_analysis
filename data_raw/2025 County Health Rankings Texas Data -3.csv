@@ -1,0 +1,39 @@
+﻿Focus Area,Measure,Description,Weight,Source,Year(s),Top Performers,US Overall
+POPULATION HEALTH AND WELL-BEING,,,,,,,
+LENGTH OF LIFE,,,,,,,
+Life span,Premature Death*,"Years of potential life lost before age 75 per 100,000 population (age-adjusted).",50%,National Center for Health Statistics - Natality and Mortality Files; Census Population Estimates Program,2020-2022,"6,200","8,400"
+QUALITY OF LIFE,,,,,,,
+Physical health,Poor Physical Health Days,Average number of physically unhealthy days reported in past 30 days (age-adjusted).,10%,Behavioral Risk Factor Surveillance System,2022,3.6,3.9
+,Low Birth Weight*,"Percentage of live births with low birth weight (< 2,500 grams).",20%,National Center for Health Statistics - Natality Files,2017-2023,6%,8%
+Mental health,Poor Mental Health Days,Average number of mentally unhealthy days reported in past 30 days (age-adjusted).,10%,Behavioral Risk Factor Surveillance System,2022,4.9,5.1
+Life satisfaction,Poor or Fair Health,Percentage of adults reporting fair or poor health (age-adjusted).,10%,Behavioral Risk Factor Surveillance System,2022,14%,17%
+COMMUNITY CONDITIONS,,,,,,,
+HEALTH INFRASTRUCTURE,,,,,,,
+Health promotion and harm reduction,Flu Vaccinations*,Percentage of fee-for-service (FFS) Medicare enrollees who had an annual flu vaccination.,4%,Mapping Medicare Disparities Tool,2022,54%,48%
+,Access to Exercise Opportunities,Percentage of population with adequate access to locations for physical activity.,4%,ArcGIS Business Analyst and ArcGIS Online; YMCA; US Census TIGER/Line Shapefiles,"2024, 2022 & 2020",91%,84%
+,Food Environment Index+,"Index of factors that contribute to a healthy food environment, from 0 (worst) to 10 (best).",4%,USDA Food Environment Atlas; Map the Meal Gap from Feeding America,2019 & 2022,8.8,7.4
+Clinical care,Primary Care Physicians,Ratio of population to primary care physicians.,2%,Area Health Resource File/American Medical Association,2021,"1,030:1","1,330:1"
+,Mental Health Providers,Ratio of population to mental health providers.,1%,"CMS, National Provider Identification",2024,220:1,300:1
+,Dentists,Ratio of population to dentists.,1%,Area Health Resource File/National Provider Identifier Downloadable File,2022,"1,180:1","1,360:1"
+,Preventable Hospital Stays*,"Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees.",4%,Mapping Medicare Disparities Tool,2022,"1,596","2,666"
+,Mammography Screening*,Percentage of female Medicare enrollees ages 65-74 who received an annual mammography screening.,1%,Mapping Medicare Disparities Tool,2022,53%,44%
+,Uninsured,Percentage of population under age 65 without health insurance.,4%,Small Area Health Insurance Estimates,2022,6%,10%
+PHYSICAL ENVIRONMENT,,,,,,,
+Housing and transportation,Severe Housing Problems,"Percentage of households with at least 1 of 4 housing problems: overcrowding, high housing costs, lack of kitchen facilities, or lack of plumbing facilities.",4%,Comprehensive Housing Affordability Strategy (CHAS) data,2017-2021,8%,17%
+,Driving Alone to Work*,Percentage of the workforce that drives alone to work.,2%,"American Community Survey, five-year estimates",2019-2023,69%,70%
+,Long Commute - Driving Alone,"Among workers who commute in their car alone, the percentage that commute more than 30 minutes.",1%,"American Community Survey, five-year estimates",2019-2023,17%,37%
+"Air, water and land",Air Pollution: Particulate Matter,Average daily density of fine particulate matter in micrograms per cubic meter (PM2.5).,8%,Environmental Public Health Tracking Network,2020,5.6,7.3
+,Drinking Water Violations+,"Indicator of the presence of health-related drinking water violations. 'Yes' indicates the presence of a violation, 'No' indicates no violation.",4%,Safe Drinking Water Information System,2023,,
+Civic and community resources,Broadband Access,Percentage of households with broadband internet connection.,4%,"American Community Survey, five-year estimates",2019-2023,92%,90%
+,Library Access,Library visits per person living within the library service area per year.,2%,Institute of Museum and Library Services,2022,5,2
+SOCIAL AND ECONOMIC FACTORS,,,,,,,
+Education,Some College,Percentage of adults ages 25-44 with some post-secondary education.,8%,"American Community Survey, five-year estimates",2019-2023,74%,68%
+,High School Completion,Percentage of adults ages 25 and over with a high school diploma or equivalent.,8%,"American Community Survey, five-year estimates",2019-2023,95%,89%
+"Income, employment and wealth",Unemployment,Percentage of population ages 16 and older unemployed but seeking work.,8%,Bureau of Labor Statistics,2023,2.3%,3.6%
+,Income Inequality,Ratio of household income at the 80th percentile to income at the 20th percentile.,8%,"American Community Survey, five-year estimates",2019-2023,3.7,4.9
+,Children in Poverty*,Percentage of people under age 18 in poverty.,8%,"Small Area Income and Poverty Estimates; American Community Survey, five-year estimates",2023 & 2019-2023,10%,16%
+Safety and social support,Injury Deaths*,"Number of deaths due to injury per 100,000 population.",4%,National Center for Health Statistics - Mortality Files; Census Population Estimates Program,2018-2022,67,84
+,Social Associations,"Number of membership associations per 10,000 population.",2%,County Business Patterns,2022,18.0,9.1
+,Child Care Cost Burden,Child care costs for a household with two children as a percent of median household income.,4%,The Living Wage Institute; Small Area Income and Poverty Estimates,2024 & 2023,20%,28%
+,,,,,,,
+*Indicates subgroup data by race and ethnicity is available; + Not available in all states.,,,,,,,

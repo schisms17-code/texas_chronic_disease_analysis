@@ -1,0 +1,129 @@
+---
+title: "Texas Chronic Disease Risk Analysis"
+author: "Michael Serna"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Project Overview
+
+This project analyzes chronic disease prevalence across Texas counties using public health, socioeconomic, and social vulnerability data. The goal is to identify county-level indicators associated with diabetes prevalence and broader chronic disease risk.
+
+# Data Sources
+
+This project uses:
+
+- CDC PLACES 2025 county-level chronic disease estimates
+- CDC/ATSDR Social Vulnerability Index 2022
+- Texas county boundaries from `tigris`
+- County-level mortality trend files for diabetes and kidney disease
+
+# Methods
+
+The analysis includes data cleaning, county-level merging, exploratory data analysis, regression modeling, prediction diagnostics, and Texas county choropleth mapping.
+
+# Key Findings
+
+Obesity and diabetes are strongly correlated across Texas counties. Uninsured rates and poverty remain strong predictors of diabetes prevalence. The strongest model explains approximately 88% of county-level variation in diabetes prevalence. High-risk counties cluster heavily in South Texas and border regions.
+
+# Texas Diabetes Prevalence
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/texas_diabetes_map_red_dark.png")
+```
+
+# Texas Obesity Prevalence
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/texas_obesity_map_red_dark.png")
+```
+
+# Social Vulnerability
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/texas_svi_map_red_dark.png")
+```
+
+# Obesity and Diabetes Relationship
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/obesity_vs_diabetes.png")
+```
+
+# Uninsurance and Diabetes Relationship
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/uninsured_vs_diabetes.png")
+```
+
+# Regression Results
+
+The strongest regression model includes obesity, smoking, uninsured rate, poverty, unemployment, and low educational attainment as predictors of diabetes prevalence. The model explains approximately 88% of county-level variation in diabetes prevalence.
+
+```{r}
+model_fit <- readr::read_csv(
+  "C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/tables/model_fit_summary.csv",
+  show_col_types = FALSE
+)
+
+knitr::kable(model_fit, digits = 3)
+```
+
+# Predicted vs Observed Diabetes
+
+```{r}
+knitr::include_graphics("C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/figures/predicted_vs_observed_diabetes.png")
+```
+
+# Highest Diabetes Prevalence Counties
+
+```{r}
+top_counties <- readr::read_csv(
+  "C:/Users/vonne/OneDrive/Desktop/HYDROCODEX/texas_chronic_disease_analysis/data_processed/top_diabetes_counties.csv",
+  show_col_types = FALSE
+)
+
+top_counties |>
+  dplyr::select(
+    county,
+    diabetes,
+    obesity,
+    high_blood_pressure,
+    smoking,
+    uninsured,
+    rpl_themes
+  ) |>
+  knitr::kable(digits = 2)
+```
+
+# Interpretation
+
+The findings suggest that diabetes prevalence in Texas counties is closely tied to both behavioral risk factors and structural socioeconomic conditions. Obesity is the strongest bivariate correlate of diabetes, while uninsured rates and poverty remain important predictors in multivariate models.
+
+The geographic maps show that chronic disease burden is not evenly distributed across Texas. Counties in South Texas and along the border appear especially vulnerable, often combining high diabetes prevalence, high uninsurance, and elevated social vulnerability.
+
+# Limitations
+
+This project uses observational county-level data and does not establish causal relationships. County-level estimates may mask individual-level variation. The analysis also relies on cross-sectional public datasets, so it cannot fully evaluate changes over time or individual health outcomes.
+
+# Conclusion
+
+This project demonstrates how public health datasets can be integrated in R to identify chronic disease risk patterns across Texas counties. The analysis shows that diabetes prevalence is strongly associated with obesity, poverty, insurance access, and broader social vulnerability.
+
+# Skills Demonstrated
+
+- R programming
+- Data cleaning
+- Public health analytics
+- Exploratory data analysis
+- Regression modeling
+- Geospatial visualization
+- Reproducible reporting with Quarto
