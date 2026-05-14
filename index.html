@@ -1,11 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="refresh" content="0; url=report/texas_chronic_disease_report.html">
-  <title>Texas Chronic Disease Analysis</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texas Chronic Disease Risk Analysis</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1f4e79;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    h2 {
+      color: #1f4e79;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #1f4e79;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 15px;
+    }
+
+    .button:hover {
+      background-color: #163956;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+    }
+  </style>
 </head>
+
 <body>
-  <p>Redirecting to the report...</p>
-  <p><a href="report/texas_chronic_disease_report.html">Click here if not redirected.</a></p>
+
+<header>
+  <h1>Texas Chronic Disease Risk Factor Analysis</h1>
+  <p>County-Level Public Health and Socioeconomic Risk Modeling</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Project Overview</h2>
+
+    <p>
+      This project analyzes county-level chronic disease risk across Texas using
+      CDC PLACES and Social Vulnerability Index (SVI) data.
+    </p>
+
+    <p>
+      The analysis evaluates relationships between diabetes prevalence,
+      obesity, smoking, insurance access, poverty, and broader socioeconomic
+      vulnerability indicators.
+    </p>
+
+    <a class="button"
+       href="report/texas_chronic_disease_report.html">
+       View Full Quarto Report
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Research Questions</h2>
+
+    <ul>
+      <li>What factors are associated with higher diabetes prevalence?</li>
+      <li>How does social vulnerability shape chronic disease risk?</li>
+      <li>Which counties exhibit elevated risk beyond model predictions?</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Methods</h2>
+
+    <ul>
+      <li>Exploratory data analysis</li>
+      <li>County-level regression modeling</li>
+      <li>Correlation analysis</li>
+      <li>Residual analysis</li>
+      <li>Geospatial visualization</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Key Visualization</h2>
+
+    <img src="figures/texas_diabetes_map_red_dark.png"
+         alt="Texas Diabetes Map">
+
+    <p>
+      County-level diabetes prevalence across Texas.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Repository</h2>
+
+    <p>
+      Full source code, Quarto reports, regression outputs, and figures are
+      available on GitHub.
+    </p>
+
+    <a class="button"
+       href="https://github.com/schisms17-code/texas_chronic_disease_analysis">
+       View GitHub Repository
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  Michael Serna • Texas Chronic Disease Analysis • 2026
+</footer>
+
 </body>
 </html>
